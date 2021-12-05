@@ -2,7 +2,7 @@ This chatbot was built utilizing react chatbot kit. Here, I will merge my front-
 
 After creating react app, I started by installing react chatbot kit that I then imported the chatbot component to my App.js, where I also created a container with classname 'App' and style with 300px. The rest of the styling at that point in css was just to display a full dark background, where text-align, justify-content and align-items are all set to center, with a black background-color - #282c34, with a display flex, and with 100vh (making the container stands the entire height of the browseer window). This provides a full dark background where we can start working/ styling on.
 
-Once you import Chabot component in your App.js, you will get the following message: "Ooops. Something is missing.
+Once you import Chabot component in your App.js, you will get the following message: "Ooops. Something is missing. With this, we should be able to get a response in the chatbot once we type in "hello"
 B
 
 I think you forgot to feed me some props. Did you remember to pass a config, a messageparser and an actionprovider?
@@ -19,3 +19,14 @@ The config is basically js file with list of configurable properties for the cha
 The MessageParser is the component that handles parsing the user input. So, whenever you type something into the input field and hit "send", the message is picked up and runs through this message parser. That means  you are free to implement a very complex message parser or a very simple one. This completely depends on your needs. Every message runs through this MessageParser component. So, all the logic needs to be implemented there. However, you are free to structure it however you want in this component.
 
 Inside the ActionProvider component,a constructor can be seen. The ActionProvider is what we will use to update the internal state of the chatbot. Hence, inside the ActionProvider, we have createChatBotMessage and setState, where setState is a function passed from the chatbot component and injected to the ActionProvider that you provide.So, when you give this class to the ChatBot, this class is initialized in the ChatBot and it will inject the createChatBotMessage and setState.
+
+In message parser, I will then lowercase the message, with a simple check using conditional statement (i.e. if lowercase include "hello", then greet). Then create "greet" method in ActionProvider component to make this work. I also created addtMessageToState. Under "greet" method, I added const message that I initially passed in addMessageToState, where I added this.createChatBotMessage("Hello friend."), to create message object. Then, we want to take that message object created to update the chatbot state. To do this, I used the setState function. However, we also need to be mindful of the fact that we have access to the entire chatbot state, with this function. Sp, we always need to make sure that we are preserving the previous state when we are updating. Hence, this code    addMessageToState = (message) => {
+       this.setState((prevState) => ({
+           ...prevState,
+           messages: [...prevState.messages, message],
+       }));
+
+Now, we have a way to update the chatbot state. Then I used the hyper method and parse in the message under "greet" method, i.e. this.addMessageToState(message);. Now, we should get "Hello friend." response when we input "hello".
+
+
+I created components folder with 2 other folders (named Options and Quiz) inside it, where "Options" folder contains Options.css & Options.jsx, and "Quiz" folder contains FlashCard.jsx, Quiz.css & Quiz.jsx
