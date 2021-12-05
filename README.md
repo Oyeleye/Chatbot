@@ -7,3 +7,5 @@ B
 
 I think you forgot to feed me some props. Did you remember to pass a config, a messageparser and an actionprovider?
 View the docs"
+
+This message is just to let us know we are mssing some vital props in order to get the chatbot to work. It also gives us a link to the documentattion. <a href="https://fredrikoseberg.github.io/react-chatbot-kit-docs/"> View the docs </a>
