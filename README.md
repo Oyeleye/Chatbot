@@ -2,7 +2,7 @@ This chatbot was built utilizing react chatbot kit. Here, I will merge my front-
 
 After creating react app, I started by installing react chatbot kit that I then imported the chatbot component to my App.js, where I also created a container with classname 'App' and style with 300px. The rest of the styling at that point in css was just to display a full dark background, where text-align, justify-content and align-items are all set to center, with a black background-color - #282c34, with a display flex, and with 100vh (making the container stands the entire height of the browseer window). This provides a full dark background where we can start working/ styling on.
 
-<span style="font-weight:20px;"> Note </span> that React-chatbot-kit 2.0 is out, and to allow for more customazibility, the css now has to be imported to your App.js, if you want it. Hence, simply import 'react-chatbot-kit/build/main.css';
+<bold> Note </bold> that React-chatbot-kit 2.0 is out, and to allow for more customazibility, the css now has to be imported to your App.js, if you want it. Hence, simply import 'react-chatbot-kit/build/main.css';
 
 Once you import Chatbot component in your App.js, you will get the following message: "Ooops. Something is missing. With this, we should be able to get a response in the chatbot once we type in "hello"
 B
