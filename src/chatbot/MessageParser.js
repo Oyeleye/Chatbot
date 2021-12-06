@@ -12,6 +12,10 @@ class MessageParser {
           this.actionProvider.greet();
       }
 
+      if (lowercase.includes("thank") || lowercase.includes("thanks")) {
+        this.actionProvider.handleThanks();
+      }
+
       if (lowercase.includes("finland") || lowercase.includes("finnish")) {
           this.actionProvider.handleFinlandQuiz();
       }
