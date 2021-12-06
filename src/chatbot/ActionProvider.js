@@ -19,6 +19,11 @@ class ActionProvider {
        this.addMessageToState(message);
    };
 
+   handleThanks = () => {
+    const message = this.createChatBotMessage("You are welcome :) . Good luck!");
+    this.addMessageToState(message);
+   };
+
    handleFinlandQuiz = () => {
     const message = this.createChatBotMessage(
         "Fantastic! Here are some FAQs about studying in Finland. Good luck!",
