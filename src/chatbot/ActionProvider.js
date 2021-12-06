@@ -21,7 +21,7 @@ class ActionProvider {
 
    handleFinlandQuiz = () => {
     const message = this.createChatBotMessage(
-        "Fantastic. Here are some FAQs about studying in Finland. Good luck!",
+        "Fantastic! Here are some FAQs about studying in Finland. Good luck!",
         {
             widget: "finlandQuiz",
         }
@@ -31,7 +31,7 @@ class ActionProvider {
 
    handleNorwayQuiz = () => {
     const message = this.createChatBotMessage(
-        "Great. Here are some FAQs about studying in Norway. Good luck!",
+        "Great! Go over some FAQs about studying in Norway. Good luck!",
         {
             widget: "norwayQuiz",
         }
@@ -41,7 +41,7 @@ class ActionProvider {
 
    handleIrelandQuiz = () => {
     const message = this.createChatBotMessage(
-        "Great. Here are some FAQs about studying in Ireland. Good luck!",
+        "Nice one! Check out some FAQs about studying in Ireland. Good luck!",
         {
             widget: "irelandQuiz",
         }
