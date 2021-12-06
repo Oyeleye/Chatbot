@@ -39,6 +39,16 @@ class ActionProvider {
     this.addMessageToState(message);
    };
 
+   handleIrelandQuiz = () => {
+    const message = this.createChatBotMessage(
+        "Great. Here are some FAQs about studying in Ireland. Good luck!",
+        {
+            widget: "irelandQuiz",
+        }
+    );
+    this.addMessageToState(message);
+   };
+
    handleOtherCountriesQuiz = () => {
     const message = this.createChatBotMessage(
         "Awesome. However, for now, I am only answering questions about studying in Finland, Germany and Ireland.",
