@@ -19,11 +19,31 @@ class ActionProvider {
        this.addMessageToState(message);
    };
 
-   handleJavascriptQuiz = () => {
+   handleFinlandQuiz = () => {
     const message = this.createChatBotMessage(
-        "Fantastic. Here is your quiz. Good luck!",
+        "Fantastic. Here are some FAQs about studying in Finland. Good luck!",
         {
-            widget: "javascriptQuiz",
+            widget: "finlandQuiz",
+        }
+    );
+    this.addMessageToState(message);
+   };
+
+   handleNorwayQuiz = () => {
+    const message = this.createChatBotMessage(
+        "Great. Here are some FAQs about studying in Norway. Good luck!",
+        {
+            widget: "norwayQuiz",
+        }
+    );
+    this.addMessageToState(message);
+   };
+
+   handleOtherCountriesQuiz = () => {
+    const message = this.createChatBotMessage(
+        "Awesome. However, for now, I am only answering questions about studying in Finland, Germany and Ireland.",
+        {
+            widget: "otherCountriesQuiz",
         }
     );
     this.addMessageToState(message);
