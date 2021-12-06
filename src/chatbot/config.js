@@ -86,6 +86,142 @@ const config = {
         ],
       },
     },
+    {
+      widgetName: "norwayQuiz",
+      widgetFunc: (props) => <Quiz {...props} />,
+      props: {
+        questions: [
+          {
+            question: "What are admission requirements in Norway? CLICK ME",
+            answer:
+              "Closure is a way for a function to retain access to it's enclosing function scope after the execution of that function is finished.",
+            id: 1,
+          },
+          {
+            question: "What are requirements for proof of funds in Norway?",
+            answer:
+              "Prototypal inheritance is a link between an object and an object store that holds shared properties. If a property is not found on the host object, javascript will check the prototype object.",
+            id: 2,
+          },
+          {
+            question: "What are requirements for proof of English proficiency in Norway?",
+            answer:
+              "Prototypal inheritance is a link between an object and an object store that holds shared properties. If a property is not found on the host object, javascript will check the prototype object.",
+            id: 3,
+          },
+          {
+            question: "What can I study in Norway?",
+            answer:
+              "Prototypal inheritance is a link between an object and an object store that holds shared properties. If a property is not found on the host object, javascript will check the prototype object.",
+            id: 4,
+          },
+          {
+            question: "List of degree programmes?",
+            answer:
+              "Prototypal inheritance is a link between an object and an object store that holds shared properties. If a property is not found on the host object, javascript will check the prototype object.",
+            id: 5,
+          },
+          {
+            question: "Is education free in Norway?",
+            answer:
+              "Prototypal inheritance is a link between an object and an object store that holds shared properties. If a property is not found on the host object, javascript will check the prototype object.",
+            id: 6,
+          },
+          {
+            question: "How do I apply for scholarships in Norway?",
+            answer:
+              "Prototypal inheritance is a link between an object and an object store that holds shared properties. If a property is not found on the host object, javascript will check the prototype object.",
+            id: 7,
+          },
+          {
+            question: "List of universities in Norway.",
+            answer:
+              "Prototypal inheritance is a link between an object and an object store that holds shared properties. If a property is not found on the host object, javascript will check the prototype object.",
+            id: 8,
+          },
+          {
+            question: "What are useful links about sudying and student visa application process in Norway?",
+            answer:
+              "Prototypal inheritance is a link between an object and an object store that holds shared properties. If a property is not found on the host object, javascript will check the prototype object.",
+            id: 9,
+          },
+          {
+            question: "When is admissin period in Norway?",
+            answer:
+              "Prototypal inheritance is a link between an object and an object store that holds shared properties. If a property is not found on the host object, javascript will check the prototype object.",
+            id: 10,
+          },
+        ],
+      },
+    },
+    {
+      widgetName: "irelandQuiz",
+      widgetFunc: (props) => <Quiz {...props} />,
+      props: {
+        questions: [
+          {
+            question: "What are admission requirements in Ireland? CLICK ME",
+            answer:
+              "Closure is a way for a function to retain access to it's enclosing function scope after the execution of that function is finished.",
+            id: 1,
+          },
+          {
+            question: "What are requirements for proof of funds in Ireland?",
+            answer:
+              "Prototypal inheritance is a link between an object and an object store that holds shared properties. If a property is not found on the host object, javascript will check the prototype object.",
+            id: 2,
+          },
+          {
+            question: "What are requirements for proof of English proficiency in Ireland?",
+            answer:
+              "Prototypal inheritance is a link between an object and an object store that holds shared properties. If a property is not found on the host object, javascript will check the prototype object.",
+            id: 3,
+          },
+          {
+            question: "What can I study in Ireland?",
+            answer:
+              "Prototypal inheritance is a link between an object and an object store that holds shared properties. If a property is not found on the host object, javascript will check the prototype object.",
+            id: 4,
+          },
+          {
+            question: "List of degree programmes?",
+            answer:
+              "Prototypal inheritance is a link between an object and an object store that holds shared properties. If a property is not found on the host object, javascript will check the prototype object.",
+            id: 5,
+          },
+          {
+            question: "Is education free in Ireland?",
+            answer:
+              "Prototypal inheritance is a link between an object and an object store that holds shared properties. If a property is not found on the host object, javascript will check the prototype object.",
+            id: 6,
+          },
+          {
+            question: "How do I apply for scholarships in Ireland?",
+            answer:
+              "Prototypal inheritance is a link between an object and an object store that holds shared properties. If a property is not found on the host object, javascript will check the prototype object.",
+            id: 7,
+          },
+          {
+            question: "List of universities in Ireland.",
+            answer:
+              "Prototypal inheritance is a link between an object and an object store that holds shared properties. If a property is not found on the host object, javascript will check the prototype object.",
+            id: 8,
+          },
+          {
+            question: "What are useful links about sudying and student visa application process in Ireland?",
+            answer:
+              "Prototypal inheritance is a link between an object and an object store that holds shared properties. If a property is not found on the host object, javascript will check the prototype object.",
+            id: 9,
+          },
+          {
+            question: "When is admissin period in Ireland?",
+            answer:
+              "Prototypal inheritance is a link between an object and an object store that holds shared properties. If a property is not found on the host object, javascript will check the prototype object.",
+            id: 10,
+          },
+        ],
+      },
+    },
   ],
 };
 
