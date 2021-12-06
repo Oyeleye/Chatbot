@@ -5,12 +5,20 @@ import "./Options.css";
 const Options = (props) => {
   const options = [
     {
-      text: "Javascript",
-      handler: props.actionProvider.handleJavascriptQuiz,
+      text: "Finland",
+      handler: props.actionProvider.handleFinlandQuiz,
       id: 1,
     },
-    { text: "Python", handler: () => {}, id: 2 },
-    { text: "Golang", handler: () => {}, id: 3 },
+    { text: "Norway", 
+      handler: props.actionProvider.handleNorwayQuiz, 
+      id: 2, 
+    },
+    { text: "Ireland", handler: () => {}, id: 3 },
+    { text: "Other countries", 
+      handler: props.actionProvider.handleOtherCountriesQuiz, 
+      id: 4, 
+    },
+  //{ text: "Germany", handler: () => {}, id: 4 },
   ];
 
   const buttonsMarkup = options.map((option) => (
