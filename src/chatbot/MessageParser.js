@@ -16,8 +16,12 @@ class MessageParser {
           this.actionProvider.handleFinlandQuiz();
       }
 
-      if (lowercase.includes("norway") || lowercase.includes("norway")) {
+      if (lowercase.includes("norway") || lowercase.includes("norwegian")) {
         this.actionProvider.handleNorwayQuiz();
+      }
+
+      if (lowercase.includes("ireland") || lowercase.includes("irish")) {
+        this.actionProvider.handleIrelandQuiz();
       }
 
       if  (
