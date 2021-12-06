@@ -26,7 +26,8 @@ class MessageParser {
             lowercase.includes("slovekia") || lowercase.includes("slovenia") || lowercase.includes("belgium") ||
             lowercase.includes("hungary") || lowercase.includes("france") || lowercase.includes("spain") ||
             lowercase.includes("czech republic") || lowercase.includes("czech") || lowercase.includes("austria") ||
-            lowercase.includes("poland") || lowercase.includes("romania") || lowercase.includes("uk") || lowercase.includes("united kingdom")
+            lowercase.includes("poland") || lowercase.includes("romania") || lowercase.includes("uk") || 
+            lowercase.includes("united kingdom") || lowercase.includes("greece") || lowercase.includes("china")
           ) 
         {
         this.actionProvider.handleOtherCountriesQuiz();
