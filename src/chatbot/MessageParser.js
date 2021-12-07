@@ -8,11 +8,15 @@ class MessageParser {
       console.log(message);
       const lowercase = message.toLowerCase();
 
-      if (lowercase.includes("hello") || lowercase.includes("hi") || lowercase.includes("bro")) {
+      if (lowercase.includes("hello") || lowercase.includes("hi") || lowercase.includes("bro") || 
+          lowercase.includes("hey") || lowercase.includes("sup") || lowercase.includes("greetings") ||
+          lowercase.includes("good morning") || lowercase.includes("good afternoon") || lowercase.includes("good evening")  
+          ) 
+          {
           this.actionProvider.greet();
       }
 
-      if (lowercase.includes("thank") || lowercase.includes("thanks")) {
+      if (lowercase.includes("thank") || lowercase.includes("thanks") || lowercase.includes("tnx")){
         this.actionProvider.handleThanks();
       }
 
