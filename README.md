@@ -4,9 +4,9 @@
 
 ![chatbot for gif](https://user-images.githubusercontent.com/44131391/145288380-b3ba2687-9f04-4d61-8169-c4d4ff09d348.gif)
 
-This chatbot was built utilizing react chatbot kit. Hence, I installed react chatbot kit, as a dependence. Here, I will merge my front-end expertisewith learning more about back-end functions, whilst exrapolating those in npm package to build interesting interfaces.
+This chatbot was built utilizing react chatbot kit. Here, I will merge my front-end expertisewith learning more about back-end functions, whilst exrapolating those in npm package to build interesting interfaces.
 
-After creating react app, I started by installing react chatbot kit that I then imported the chatbot component to my App.js, where I also created a container with classname 'App' and style with 300px. The rest of the styling at that point in css was just to display a full dark background, where text-align, justify-content and align-items are all set to center, with a black background-color - #282c34, with a display flex, and with 100vh (making the container stands the entire height of the browseer window). This provides a full dark background where we can start working/ styling on.
+After creating react app, I started by installing react chatbot kit as a dependency that I then imported the chatbot component to my App.js, where I also created a container with classname 'App' and style with 300px. The rest of the styling at that point in css was just to display a full dark background, where text-align, justify-content and align-items are all set to center, with a black background-color - #282c34, with a display flex, and with 100vh (making the container stands the entire height of the browseer window). This provides a full dark background where we can start working/ styling on.
 
 <bold> Note </bold> that React-chatbot-kit 2.0 is out, and to allow for more customazibility, the css now has to be imported to your App.js, if you want it. Hence, simply import 'react-chatbot-kit/build/main.css';
 
