@@ -2,7 +2,7 @@
 <a href="https://chat-bot-8a023.firebaseapp.com/">My Chat Bot</a>
 </h2>
 
-<img src="src/images/chatappImg.jpg" title="chatbotImage">
+<img src="src/images/chatappImg.jpeg" title="chatbotImage">
 
 ![chatbot for gif](https://user-images.githubusercontent.com/44131391/145288380-b3ba2687-9f04-4d61-8169-c4d4ff09d348.gif)
 
