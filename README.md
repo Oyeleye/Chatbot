@@ -5,7 +5,7 @@
 <img src="src/images/chatbotImg.jpeg" title="chatbotImage">
 
 
-![chatbot for gif](https://user-images.githubusercontent.com/44131391/145288380-b3ba2687-9f04-4d61-8169-c4d4ff09d348.gif)
+![chatbotGif](https://user-images.githubusercontent.com/44131391/146071574-38f6836f-4e1c-47eb-b595-49d5e9e181bf.gif)
 
 This chatbot was built utilizing react chatbot kit. Here, I will merge my front-end expertisewith learning more about back-end functions, whilst exrapolating those in npm package to build interesting interfaces.
 
